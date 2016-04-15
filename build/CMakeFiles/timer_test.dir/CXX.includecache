@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/stez/CHENGJIE_test/git_LI/timer_test/test_timer.cpp
+cstdio
+-
+chrono
+-
+thread
+-
+timer.h
+/home/stez/CHENGJIE_test/git_LI/timer_test/timer.h
+
+/home/stez/CHENGJIE_test/git_LI/timer_test/timer.cpp
+timer.h
+/home/stez/CHENGJIE_test/git_LI/timer_test/timer.h
+
+/home/stez/CHENGJIE_test/git_LI/timer_test/timer.h
+thread
+-
+mutex
+-
+condition_variable
+-
+algorithm
+-
+functional
+-
+chrono
+-
+unordered_map
+-
+set
+-
+cstdint
+-
+
